@@ -1,0 +1,15 @@
+{
+  {
+    "specFlow": {
+      "plugin": [
+        {
+          "name": "SpecFlow.Plus.LivingDocPlugin",
+          "parameters": {
+            "outputFile": "FeatureData.json"
+          }
+        }
+      ]
+    }
+  }
+
+}

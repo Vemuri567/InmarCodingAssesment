@@ -1,0 +1,165 @@
+Given user is on the Magneto Home Page
+Looking for ENV_NAME in Common
+Looking for BrowserType in Common
+Looking for UserName in Common
+Found ADO Secret UserName NAVEEN
+Looking for UserPassword in Common
+Looking for ApplicationUrl in Common
+-> done: PurchaseWatchSteps.GivenUserIsOnTheMagnetoHomePage() (3.0s)
+Then User should see the signin button on the home page
+-> Checking to see if element is present: By.XPath: //div[@class='panel header']//a[contains(text(),'Sign In')]
+-> done: PurchaseWatchSteps.ThenUserShouldSeeTheSigninButtonOnTheHomePage() (0.0s)
+When User clicks on the signin button on the home page
+-> Waiting on element to be visible by XPath: By.XPath: //div[@class='panel header']//a[contains(text(),'Sign In')]
+-> done: PurchaseWatchSteps.WhenUserClicksOnTheSigninButtonOnTheHomePage() (1.0s)
+Then User should be redirected to the login screen
+-> Checking to see if element is present: By.Id: email
+-> done: PurchaseWatchSteps.ThenUserShouldBeRedirectedToTheLoginScreen() (0.0s)
+When User enters the email "naveenvemuri143@gmail.com" and password "Naveen@987"
+-> Waiting on element to be visible by XPath: By.Id: email
+-> Waiting on element to be visible by XPath: By.Name: login[password]
+-> done: PurchaseWatchSteps.WhenUserEntersTheEmailAndPassword("naveenvemuri143@g...", "Naveen@987") (0.3s)
+And User clicks on the sign-in button
+-> Waiting on element to be visible by XPath: By.XPath: //button[@class='action login primary']//span[text()='Sign In']
+-> done: PurchaseWatchSteps.WhenUserClicksOnTheSign_InButton() (2.1s)
+Then User should see the welcome text on the home page
+-> Checking if element exists: By.XPath: //div[@class='panel header']//span[@class='logged-in']
+-> Waiting for element to exist at: By.XPath: //div[@class='panel header']//span[@class='logged-in']
+-> Trying to find elements at: By.XPath: //div[@class='panel header']//span[@class='logged-in']
+-> done: PurchaseWatchSteps.ThenUserShouldSeeTheWelcomeTextOnTheHomePage() (1.1s)
+When User clicks on the "Gear" item
+-> Waiting on element to be visible by XPath: By.XPath: //nav[@data-action='navigation']//span[text()='Gear']
+-> Trying to hover over element
+-> done: PurchaseWatchSteps.WhenUserClicksOnTheItem("Gear") (0.4s)
+And User clicks on the submenu "Watches" item
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Watches']
+-> done: PurchaseWatchSteps.WhenUserClicksOnTheSubmenuItem("Watches") (1.0s)
+Then User should see available shopping options
+-> Waiting on elements by XPath: By.XPath: //div[@class='filter-options']//div[@class='filter-options-title']
+-> done: PurchaseWatchSteps.ThenUserShouldSeeAvailableShoppingOptions() (0.0s)
+When User selects the "Material" category
+-> Waiting on element to be visible by XPath: By.XPath: //div[@class='filter-options']//div[text()='Material']
+-> done: PurchaseWatchSteps.WhenUserSelectsTheCategory("Material") (0.1s)
+And User filters the "Metal"
+-> Waiting on element to be visible by XPath: By.XPath: //div[@class='filter-options']//a[contains(text(),'Metal')]
+-> done: PurchaseWatchSteps.WhenUserFiltersThe("Metal") (1.0s)
+Then User should see the product "Didi Sport Watch" in the product list
+-> Checking to see if element is present: By.XPath: //a[@class='product-item-link' and contains(text(),'Didi Sport Watch')]
+-> done: PurchaseWatchSteps.ThenUserShouldSeeTheProductInTheProductList("Didi Sport Watch") (0.0s)
+When User clicks on the product "Didi Sport Watch"
+-> Waiting on element to be visible by XPath: By.XPath: //a[@class='product-item-link' and contains(text(),'Didi Sport Watch')]
+-> done: PurchaseWatchSteps.WhenUserClicksOnTheProduct("Didi Sport Watch") (1.2s)
+Then User should be directed to the product details page
+-> Waiting on element to be visible by XPath: By.XPath: //div[@class='product-info-main']//span[@itemprop='name']
+-> done: PurchaseWatchSteps.ThenUserShouldBeDirectedToTheProductDetailsPage() (0.0s)
+And User should see the product name "Didi Sport Watch"
+-> Waiting on element to be visible by XPath: By.XPath: //div[@class='product-info-main']//span[@itemprop='name']
+-> done: PurchaseWatchSteps.ThenUserShouldSeeTheProductName("Didi Sport Watch") (0.0s)
+And User should get the quantity and price for the product "Didi Sport Watch"
+-> Waiting on element to be visible by XPath: By.Id: qty
+-> Waiting on element to be visible by XPath: By.XPath: //div[@class='product-info-price']//span[@class='price']
+-> done: PurchaseWatchSteps.ThenUserShouldGetTheQuantityAndPriceForTheProduct("Didi Sport Watch") (0.1s)
+When User adds the product to the cart
+-> Checking if element exists: By.XPath: //span[text()='Add to Cart']
+-> Waiting for element to exist at: By.XPath: //span[text()='Add to Cart']
+-> Trying to find elements at: By.XPath: //span[text()='Add to Cart']
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Add to Cart']
+-> done: PurchaseWatchSteps.WhenUserAddsTheProductToTheCart() (0.1s)
+Then The success message should confirm that the product "Didi Sport Watch" is added to the cart
+-> Waiting on element to be visible by XPath: By.XPath: //div[contains(text(),'You added')]
+-> done: PurchaseWatchSteps.ThenTheSuccessMessageShouldConfirmThatTheProductIsAddedToTheCart("Didi Sport Watch") (2.1s)
+When User navigates to the shopping cart page
+-> Waiting on element to be visible by XPath: By.XPath: //div[contains(text(),'You added')]//a[text()='shopping cart']
+-> done: PurchaseWatchSteps.WhenUserNavigatesToTheShoppingCartPage() (2.1s)
+Then User should see the product "Didi Sport Watch" in the shopping cart
+-> Checking if element exists: By.XPath: //table[@id='shopping-cart-table']
+-> Waiting for element to exist at: By.XPath: //table[@id='shopping-cart-table']
+-> Trying to find elements at: By.XPath: //table[@id='shopping-cart-table']
+-> Checking to see if element is present: By.XPath: //td//a[text()='Didi Sport Watch']
+-> done: PurchaseWatchSteps.ThenUserShouldSeeTheProductInTheShoppingCart("Didi Sport Watch") (0.0s)
+And validate the quantity of the product "Didi Sport Watch" in the shopping cart
+-> Waiting on element to be visible by XPath: By.XPath: //table[@id='shopping-cart-table']//td//a[text()='Didi Sport Watch']/../../..//following-sibling::td[@class='col qty']//input[@value]
+-> done: PurchaseWatchSteps.ThenValidateTheQuantityOfTheProductInTheShoppingCart("Didi Sport Watch") (0.0s)
+And validate the product "Didi Sport Watch" price in the shopping cart
+-> Waiting on element to be visible by XPath: By.XPath: //table[@id='shopping-cart-table']//td//a[text()='Didi Sport Watch']/../../..//following-sibling::td[@class='col price']//span[@class='price']
+-> done: PurchaseWatchSteps.ThenValidateTheProductPriceInTheShoppingCart("Didi Sport Watch") (0.0s)
+And validate the product "Didi Sport Watch" subtotal in the shopping cart
+-> Waiting on element to be visible by XPath: By.XPath: //table[@id='shopping-cart-table']//td//a[text()='Didi Sport Watch']/../../..//following-sibling::td[@class='col subtotal']//span[@class='price']
+-> done: PurchaseWatchSteps.ThenValidateTheProductSubtotalInTheShoppingCart("Didi Sport Watch") (0.0s)
+When User updates the quantity of "Didi Sport Watch" to "2"
+-> Waiting on element to be visible by XPath: By.XPath: //table[@id='shopping-cart-table']//td//a[text()='Didi Sport Watch']/../../..//following-sibling::td[@class='col qty']//input[@value]
+-> Clearing the field and sending keys: 12
+-> done: PurchaseWatchSteps.WhenUserUpdatesTheQuantityOfTo("Didi Sport Watch", "2") (0.1s)
+And user clicks on the updateshoppingcart button
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Update Shopping Cart']
+-> Waiting for element to not exist: By.XPath: //img[contains(@title,'Loading')]
+-> Waiting for element to not exist: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> done: PurchaseWatchSteps.WhenUserClicksOnTheUpdateshoppingcartButton() (5.7s)
+Then The new quantity in the cart should be "2" for the product "Didi Sport Watch"
+-> Waiting on element to be visible by XPath: By.XPath: //table[@id='shopping-cart-table']//td//a[text()='Didi Sport Watch']/../../..//following-sibling::td[@class='col qty']//input[@value]
+-> done: PurchaseWatchSteps.ThenTheNewQuantityInTheCartShouldBeForTheProduct("2", "Didi Sport Watch") (0.0s)
+And The subtotal price should reflect the updated quantity for the product "Didi Sport Watch"
+-> Waiting on element to be visible by XPath: By.XPath: //table[@id='shopping-cart-table']//td//a[text()='Didi Sport Watch']/../../..//following-sibling::td[@class='col subtotal']//span[@class='price']
+-> done: PurchaseWatchSteps.ThenTheSubtotalPriceShouldReflectTheUpdatedQuantityForTheProduct("Didi Sport Watch") (0.0s)
+And The order Total price should reflect the updated quantity for the product "Didi Sport Watch"
+-> Waiting on element to be visible by XPath: By.XPath: //tr[@class='grand totals']//td//span[@class='price']
+-> done: PurchaseWatchSteps.ThenTheOrderTotalPriceShouldReflectTheUpdatedQuantityForTheProduct("Didi Sport Watch") (0.0s)
+When User Clicks on proceeds to checkout
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Proceed to Checkout']
+-> done: PurchaseWatchSteps.WhenUserClicksOnProceedsToCheckout() (2.3s)
+Then User should see the number of items in the cart in the order summary
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Item in Cart']//preceding-sibling::span[@data-bind]
+-> done: PurchaseWatchSteps.ThenUserShouldSeeTheNumberOfItemsInTheCartInTheOrderSummary() (2.0s)
+When User clicks on the number of items in the cart
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Item in Cart']//preceding-sibling::span[@data-bind]
+-> done: PurchaseWatchSteps.WhenUserClicksOnTheNumberOfItemsInTheCart() (0.1s)
+Then User should see the product "Didi Sport Watch" in the order summary
+-> Waiting on element to be visible by XPath: By.XPath: //strong[@class='product-item-name']
+-> done: PurchaseWatchSteps.ThenUserShouldSeeTheProductInTheOrderSummary("Didi Sport Watch") (0.0s)
+And validate the product "Didi Sport Watch" price in the order summary
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Order Summary']/..//strong[text()='Didi Sport Watch']/../../..//div[@class='subtotal']//span[@class='price']
+-> done: PurchaseWatchSteps.ThenValidateTheProductPriceInTheOrderSummary("Didi Sport Watch") (0.0s)
+When User chooses the shipping method "Best Way - Table Rate"
+-> Waiting on element to be visible by XPath: By.XPath: //input[@value='tablerate_bestway']
+-> done: PurchaseWatchSteps.WhenUserChoosesTheShippingMethod("Best Way - Table ...") (0.1s)
+And User clicks on the next button
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Next']
+-> Waiting for element to not exist: By.XPath: //img[contains(@title,'Loading')]
+-> Waiting for element to not exist: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> Checking to see if element is present: By.XPath: //img[contains(@title,'Loading')]
+-> done: PurchaseWatchSteps.WhenUserClicksOnTheNextButton() (3.2s)
+Then Validate order summary details in the Review Page
+-> Checking if element exists: By.XPath: //div[@class='payment-method-billing-address']//div[@class='billing-address-details']
+-> Waiting for element to exist at: By.XPath: //div[@class='payment-method-billing-address']//div[@class='billing-address-details']
+-> Trying to find elements at: By.XPath: //div[@class='payment-method-billing-address']//div[@class='billing-address-details']
+-> Waiting on element to be visible by XPath: By.XPath: //span[@data-th='Cart Subtotal']
+-> Waiting on element to be visible by XPath: By.XPath: //span[@class='label' and text()='Shipping']//following-sibling::span
+-> Waiting on element to be visible by XPath: By.XPath: //tr[@class='totals shipping excl']//td//span[@data-th='Shipping']
+-> Waiting on element to be visible by XPath: By.XPath: //tr[@class='grand totals']//td//span[@class='price']
+-> Waiting on element to be visible by XPath: By.XPath: //strong[@class='product-item-name']
+-> Waiting on element to be visible by XPath: By.XPath: //div[@class='details-qty']//span[@class='value']
+-> Waiting on element to be visible by XPath: By.XPath: //div[@class='subtotal']//span[@class='price']
+-> done: PurchaseWatchSteps.ThenValidateOrderSummaryDetailsInTheReviewPage() (0.2s)
+When user clicks on place order
+-> Waiting on element to be visible by XPath: By.XPath: //span[text()='Place Order']
+-> done: PurchaseWatchSteps.WhenUserClicksOnPlaceOrder() (0.1s)
+Then User should be able to place the order successfully
+-> Waiting on element to be visible by XPath: By.XPath: //p[text()='Your order number is: ']//a[@class='order-number']//strong
+-> Waiting on element to be visible by XPath: By.XPath: //p[text()='Your order number is: ']//a[@class='order-number']//strong
+-> 000042962
+-> done: PurchaseWatchSteps.ThenUserShouldBeAbleToPlaceTheOrderSuccessfully() (4.1s)

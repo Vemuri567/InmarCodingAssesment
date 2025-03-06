@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\InmarCodingAssesment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\utility\\appsettingshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\utility\\appsettingshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\utility\\screenshothelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\utility\\screenshothelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\utility\\seleniumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\utility\\seleniumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\utility\\testcontexthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\utility\\testcontexthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\features\\cart\\purchasewatch.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\features\\cart\\purchasewatch.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\pages\\shoppingcartpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\pages\\shoppingcartpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\stepdefinition\\purchasewatchsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\stepdefinition\\purchasewatchsteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\pages\\checkoutpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\pages\\checkoutpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\pages\\reviewandpaymentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\pages\\reviewandpaymentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\pages\\orderconfirmationpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\pages\\orderconfirmationpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\pages\\productspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\pages\\productspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\pages\\productdetailspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\pages\\productdetailspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\pageobjects\\pagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\pageobjects\\pagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\standardscenarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\standardscenarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\iscenarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\iscenarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\globalsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\globalsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\stepdefinitions\\stepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\stepdefinitions\\stepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|d:\\inmarcodingassesment\\specflowframework\\hooks\\globalhooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F233621-C7BF-49D1-B121-3D158603D8C7}|SpecFlowFramework\\SpecFlowFramework.csproj|solutionrelative:specflowframework\\hooks\\globalhooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|d:\\inmarcodingassesment\\uitestcases\\hooks\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA14F02D-93CB-4464-9101-F9F5EBE02163}|UITestCases\\UITestCases.csproj|solutionrelative:uitestcases\\hooks\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCartPage.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\ShoppingCartPage.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Pages\\ShoppingCartPage.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\ShoppingCartPage.cs",
+              "RelativeToolTip": "UITestCases\\Pages\\ShoppingCartPage.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowEgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:20:32.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PurchaseWatch.feature",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Features\\Cart\\PurchaseWatch.feature",
+              "RelativeDocumentMoniker": "UITestCases\\Features\\Cart\\PurchaseWatch.feature",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Features\\Cart\\PurchaseWatch.feature",
+              "RelativeToolTip": "UITestCases\\Features\\Cart\\PurchaseWatch.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAjAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKeSURBVDhPjZPJa1NRGMV/9yZ57yWtnZJGW\u002BfaOlFRVBBRpIID4rRw3AjiSnCh4MaFCxGKIKggLtQ/QFB3IoIIThSkDmgdqkhjq9YqaWqJGV7ycu\u002B7LhLboiA9m7u5v\u002B/ecw6fADh\u002B6YSxIooR9wcGw/8kEETD0/DyQc4dOYM4dvG4SQa62LxyGdOmxEGUr4GpnBNlwMCPTJK7z18RV2sQBy/sMtvXN7MwNh9PF8cQO1iPpzNIEcIJRckWB8fGWAGbD6mP3HowhEy6CaptB1fl8I1G\u002BQopwrTE9xKrXk591WJmRbcihY0giG80rspRbTsk3QRSG4WoeAvIMM11awkEHFKZV0gZQvslRrKvqQnPYUHTAZxQDIFAANqUkBN92sEaGqqWMKthE6lsD8nMC0bz7xnOvKTKnkHGHaCks\u002BNBG5BjNJD3kvQlr/Pl511846F0Du0XUL5LpjCA8l3CocaJCLKcdll2sI7W\u002BB5m1m9EiCARq4mI1YQdrMNTv4hWL6U\u002BshDMOCOpFGYwKN/lZ66XzyN3iE9ZTnPdWpxQA21T96F9j3dDV/g6eg8hKraFQNZacYrKAwPaL/A93UVRpXFCUUo6T644RK74vfyE0UD5AwXlUWs1IvZ37jZz21Osn7eKSDBSaSOAZTmoksbTLgaDGIvLkFd5HiS6\u002BfQ2hjh5\u002BZR50n\u002BfxhklpFWgZXaETdM3klM5uodekviWRorxrA2GgmtIDlqsadlQ7vDR08fm8/AgN55fZUdHE07A4eHHXtKDU9ncvpOevl6GR1P4RgOC\u002BbNbWb1oBds7tv1JAw51HjaleDdt02M860njuK3cPH3t72X4RxLg9sPbpj/9BiENXV1F2iIdk4L5MyCbz1MsaBI9taxr3cL5o2cnBQP8BrVZHaNN5tfwAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-03-05T00:41:15.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeleniumExtensions.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Utility\\SeleniumExtensions.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\Utility\\SeleniumExtensions.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Utility\\SeleniumExtensions.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\Utility\\SeleniumExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:23:37.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PurchaseWatchSteps.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\StepDefinition\\PurchaseWatchSteps.cs",
+              "RelativeDocumentMoniker": "UITestCases\\StepDefinition\\PurchaseWatchSteps.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\StepDefinition\\PurchaseWatchSteps.cs",
+              "RelativeToolTip": "UITestCases\\StepDefinition\\PurchaseWatchSteps.cs",
+              "ViewState": "AQIAABABAAAAAAAAAAAAABABAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:55:03.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\appsettings.json",
+              "RelativeDocumentMoniker": "UITestCases\\appsettings.json",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\appsettings.json",
+              "RelativeToolTip": "UITestCases\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-05T00:31:18.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestContextHelper.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Utility\\TestContextHelper.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\Utility\\TestContextHelper.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Utility\\TestContextHelper.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\Utility\\TestContextHelper.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:24:05.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScreenshotHelper.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Utility\\ScreenshotHelper.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\Utility\\ScreenshotHelper.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Utility\\ScreenshotHelper.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\Utility\\ScreenshotHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:23:27.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppSettingsHelper.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Utility\\AppSettingsHelper.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\Utility\\AppSettingsHelper.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Utility\\AppSettingsHelper.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\Utility\\AppSettingsHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:22:46.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CheckoutPage.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\CheckoutPage.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Pages\\CheckoutPage.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\CheckoutPage.cs",
+              "RelativeToolTip": "UITestCases\\Pages\\CheckoutPage.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAIwCYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:21:31.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsPage.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\ProductsPage.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Pages\\ProductsPage.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\ProductsPage.cs",
+              "RelativeToolTip": "UITestCases\\Pages\\ProductsPage.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAACwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:08:39.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderConfirmationPage.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\OrderConfirmationPage.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Pages\\OrderConfirmationPage.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\OrderConfirmationPage.cs",
+              "RelativeToolTip": "UITestCases\\Pages\\OrderConfirmationPage.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA3wBEAAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:23:12.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReviewAndPaymentsPage.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\ReviewAndPaymentsPage.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Pages\\ReviewAndPaymentsPage.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\ReviewAndPaymentsPage.cs",
+              "RelativeToolTip": "UITestCases\\Pages\\ReviewAndPaymentsPage.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwCMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:22:34.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductDetailsPage.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\ProductDetailsPage.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Pages\\ProductDetailsPage.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\ProductDetailsPage.cs",
+              "RelativeToolTip": "UITestCases\\Pages\\ProductDetailsPage.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAADgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T03:19:20.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\HomePage.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Pages\\HomePage.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\HomePage.cs",
+              "RelativeToolTip": "UITestCases\\Pages\\HomePage.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAA2wDsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:55:22.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PageModel.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\PageObjects\\PageModel.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\PageObjects\\PageModel.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\PageObjects\\PageModel.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\PageObjects\\PageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:21:22.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\LoginPage.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Pages\\LoginPage.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Pages\\LoginPage.cs",
+              "RelativeToolTip": "UITestCases\\Pages\\LoginPage.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:48:48.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StandardScenarioConfiguration.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\StandardScenarioConfiguration.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\StandardScenarioConfiguration.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\StandardScenarioConfiguration.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\StandardScenarioConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:30:56.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IScenarioConfiguration.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\IScenarioConfiguration.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\IScenarioConfiguration.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\IScenarioConfiguration.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\IScenarioConfiguration.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvw8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:04:36.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ImplicitUsings.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\ImplicitUsings.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\ImplicitUsings.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\ImplicitUsings.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\ImplicitUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:30:51.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GlobalSettings.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\GlobalSettings.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\GlobalSettings.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\GlobalSettings.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\GlobalSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:27:51.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StepDefinitions.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\StepDefinitions\\StepDefinitions.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\StepDefinitions\\StepDefinitions.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\StepDefinitions\\StepDefinitions.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\StepDefinitions\\StepDefinitions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:21:26.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GlobalHooks.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Hooks\\GlobalHooks.cs",
+              "RelativeDocumentMoniker": "SpecflowFrameWork\\Hooks\\GlobalHooks.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\SpecflowFrameWork\\Hooks\\GlobalHooks.cs",
+              "RelativeToolTip": "SpecflowFrameWork\\Hooks\\GlobalHooks.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAgwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:15:24.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Hooks.cs",
+              "DocumentMoniker": "D:\\InmarCodingAssesment\\UITestCases\\Hooks\\Hooks.cs",
+              "RelativeDocumentMoniker": "UITestCases\\Hooks\\Hooks.cs",
+              "ToolTip": "D:\\InmarCodingAssesment\\UITestCases\\Hooks\\Hooks.cs",
+              "RelativeToolTip": "UITestCases\\Hooks\\Hooks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T00:35:24.308Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
