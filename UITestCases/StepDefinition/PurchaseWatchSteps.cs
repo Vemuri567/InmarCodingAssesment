@@ -106,7 +106,7 @@ namespace UITestCases.StepDefinition
         public void ThenUserShouldSeeTheProductInTheProductList(string productName)
         {
             var productsPage = new ProductsPage(Settings);
-            productsPage.VerifyProductName(productName).Should().BeTrue();
+            productsPage.VerifyProductName(productName).Should().BeTrue($"{productName} should be displayed");
             Settings.Scenario["productName"] = productName;
 
         }
@@ -156,7 +156,7 @@ namespace UITestCases.StepDefinition
         public void ThenTheSuccessMessageShouldConfirmThatTheProductIsAddedToTheCart(string productName)
         {
             var productDetailsPage = new ProductDetailsPage(Settings);
-            productDetailsPage.GetSuccessMessage().Should().Contain(productName);
+            productDetailsPage.GetSuccessMessage().Should().Be($"You added {productName} to your shopping cart.");
         }
 
         [When(@"User navigates to the shopping cart page")]

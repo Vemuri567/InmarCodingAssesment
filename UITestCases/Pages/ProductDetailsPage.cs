@@ -21,7 +21,7 @@ namespace UITestCases.Pages
         private IWebElement _PrdouctNameTitle => driver.WaitForVisible(By.XPath("//div[@class='product-info-main']//span[@itemprop='name']"));
         private IWebElement _quantity => driver.WaitForVisible(By.Id("qty"));
         private IWebElement _priceInCart => driver.WaitForVisible(By.XPath("//div[@class='product-info-price']//span[@class='price']"));
-        private IWebElement _successMessage => driver.WaitForVisible(By.XPath("//div[contains(text(),'You added')]"));
+        private IWebElement _successMessage => driver.WaitForVisible(By.XPath("//div[contains(@data-bind,'message.text')]"));
         private IWebElement _successShopingCartLink => driver.WaitForVisible(By.XPath("//div[contains(text(),'You added')]//a[text()='shopping cart']"));
 
         public bool VerifyAddToCartButton()
