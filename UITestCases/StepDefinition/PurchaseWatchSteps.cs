@@ -61,7 +61,7 @@ namespace UITestCases.StepDefinition
         public void ThenUserShouldSeeTheWelcomeTextOnTheHomePage()
         {
             var homePage = new HomePage(Settings);
-            homePage.VerifyWelcomeText().Should().BeTrue();
+            homePage.VerifyWelcomeText().Should().BeTrue("Welcome text should be displayed after sign into the application");
         }
 
         [When(@"User clicks on the ""([^""]*)"" item")]
@@ -179,7 +179,6 @@ namespace UITestCases.StepDefinition
         {
             var shoppingCartPage = new ShoppingCartPage(Settings);
             string quantityInShoppingCartPage = shoppingCartPage.GetQuantityInShoppingCartPage(productName);
-            //May be if already same product added in cart . So i am validating quantity as whether value greater than 0 or not
             quantityInShoppingCartPage.Should().NotBe("0");
             int noOfquantities = int.Parse(quantityInShoppingCartPage);
             Settings.Scenario["quantityInShoppingCartPage"] = quantityInShoppingCartPage;

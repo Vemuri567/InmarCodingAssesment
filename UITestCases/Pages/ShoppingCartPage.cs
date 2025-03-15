@@ -58,7 +58,20 @@ namespace UITestCases.Pages
         public void ClickOnUpdateShoppingCart()
         {
             _updateShoppingCart.Click();
-            driver.WaitForElementNotExist(By.XPath("//img[contains(@title,'Loading')]"));
+            bool loaderExists = true;
+            do
+            {
+                try
+                {
+                    driver.WaitForElementNotExist(By.XPath("//img[contains(@title,'Loading')]"));
+                    loaderExists = true;
+                }
+                catch
+                {
+                    loaderExists = false;
+                }
+            }while(loaderExists);
+            
         }
 
         public void ClickOnProceedToCheckOut()

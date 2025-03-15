@@ -46,7 +46,5 @@
       Then User should be able to place the order successfully
 
     Examples: 
-    | email                     | password   | menu | submenu | shopping | subcategory | productName      | updatedQuantity |
-    | naveenvemuri143@gmail.com | Naveen@987 | Gear | Watches | Material | Metal       | Didi Sport Watch | 2               |
-
- 
+    | email                     | password   | menu | submenu | shopping | subcategory | productName  | updatedQuantity |
+    | naveenvemuri143@gmail.com | Naveen@987 | Gear | Watches | Material | Metal       | Endurance Watch | 2               |

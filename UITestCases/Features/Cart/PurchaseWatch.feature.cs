@@ -76,7 +76,7 @@ namespace UITestCases.Features.Cart
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("User should be able to order Metal watches successfully")]
-        [NUnit.Framework.TestCaseAttribute("naveenvemuri143@gmail.com", "Naveen@987", "Gear", "Watches", "Material", "Metal", "Didi Sport Watch", "2", null)]
+        [NUnit.Framework.TestCaseAttribute("naveenvemuri143@gmail.com", "Naveen@987", "Gear", "Watches", "Material", "Metal", "Endurance Watch", "2", null)]
         public virtual void UserShouldBeAbleToOrderMetalWatchesSuccessfully(string email, string password, string menu, string submenu, string shopping, string subcategory, string productName, string updatedQuantity, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
